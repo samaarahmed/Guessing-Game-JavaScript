@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    text-align: center;
+}
+header{
+    position: relative;
+    display: flex;
+    height: 35vh;
+    border: solid black;
+    align-items: center;
+}
+h1{
+    position: absolute;
+    display: flex;
+    top:8rem;
+    left: 15rem;
+    align-items: center;
+}
+header p{
+    position: absolute;
+    right: 1rem;
+}
+.again{
+    position: absolute;
+    left:0;
+    top:0;
+    font-size: 2rem;
+    left: 5rem;
+
+}
+.number {
+    font-size: 3rem;
+    background-color: azure;
+    height: 5rem;
+    width: 7rem;
+    position: absolute;
+    left: 15rem;
+    top: 13rem;
+}
+main{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+.guess{
+    height: 10vh;
+    width: 10vw;
+    font-size:2rem ;
+
+}
+.check{
+    font-size: 2rem;
+
+}
